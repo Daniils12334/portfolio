@@ -15,8 +15,8 @@ This is my personal roadmap for learning Data Science and Machine Learning. I tr
 - [x] OpenCV (image processing and computer vision basics)
 
 ## 📊 Mathematics & Statistics
-- [ ] Linear Algebra (vectors, matrices, eigenvalues)
-- [ ] Probability & Statistics (distributions, hypothesis testing)
+- [x] Linear Algebra (vectors, matrices, eigenvalues)
+- [x] Probability & Statistics (distributions, hypothesis testing)
 - [ ] Calculus (derivatives, gradient descent)
 - [ ] Optimization Methods (loss functions, backpropagation)
 

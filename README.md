@@ -11,7 +11,7 @@ This is my personal roadmap for learning Data Science and Machine Learning. I tr
 - [ ] Matplotlib & Seaborn (data visualization)
 - [x] Unix/Linux Commands (working with the terminal, scripting)
 - [x] Git & GitHub (version control, repositories, commits, branches)
-- [x] C++ (reading and understanding code)
+- [x] C++ (reading and understanding code, syntax, data structures, functions, OOP)
 - [x] OpenCV (image processing and computer vision basics)
 
 ## 📊 Mathematics & Statistics

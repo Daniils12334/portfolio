@@ -1,5 +1,18 @@
 import hashlib
-import random
+import json
+
+USER_FILE = "bank_users.json"
+
+def load_users():
+    try:
+        with open(USER_FILE, "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+def save_users(users):
+    with open(USER_FILE, "w") as f:
+        json.dump(users, f, indent=4)
 
 class User:
     def __init__(self, login, password, name, age, balance):
@@ -10,19 +23,15 @@ class User:
         self.balance = balance
 
     def authenticate(self):
-        """Ask user for login and password to authenticate"""
-        login_input = input('Enter your login: ')
         password_input = hashlib.sha256(input('Enter your password: ').encode()).hexdigest()
-
-        if login_input == self.login and password_input == self.password:
+        if password_input == self.password:
             print(f"Welcome, {self.name}!")
             return True
         else:
-            print("Invalid login or password.")
+            print("Invalid password.")
             return False
 
     def withdraw(self):
-        """Withdraw money from balance after password confirmation"""
         password_input = hashlib.sha256(input('Enter your password: ').encode()).hexdigest()
         if password_input != self.password:
             print("Incorrect password.")
@@ -34,20 +43,24 @@ class User:
         else:
             self.balance -= withdraw_amount
             print(f"You have withdrawn {withdraw_amount}$. Your new balance is {self.balance}$")
+            users[self.login]["balance"] = self.balance 
+            save_users(users)  
 
     def deposit(self):
-        """Deposit money into balance"""
+
         deposit_amount = int(input("Enter money you would like to deposit: "))
         self.balance += deposit_amount
-        print(f'Your deposit is: {deposit_amount}, your balance now is {self.balance}')
+        print(f'Your deposit is: {deposit_amount}, your balance now is {self.balance}$')
+        users[self.login]["balance"] = self.balance  
+        save_users(users) 
 
     def status(self):
-        """Print user details"""
+
         print(f'Your name is {self.name}, you are {self.age} years old, your current balance is {self.balance}$')
 
     def main(self):
-        """Main loop to interact with user"""
-        if not self.authenticate():  # Check if authentication is successful
+
+        if not self.authenticate():
             return
         
         while True:
@@ -65,15 +78,49 @@ class User:
                 case _:
                     print("Invalid option, please try again.")
 
+def register():
 
-user1 = User("dan_bar", "run_nigga_run", "Daniils", 25, 5000)  # Creating a user with initial balance
-user2 = User("deniss_zura", "den.zura.1234", "Deniss", 17, 2)  # Creating a user with initial balance
+    login = input("Enter new login: ")
+    if login in users:
+        print("User already exists!")
+        return
 
-# user2.main()  # Running the banking system
+    password = input("Enter new password: ")
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    balance = float(input("Enter initial balance: "))
 
-user = input('enter your login')
-match user:
-    case "dan_bar":
-        user1.main()
-    case "deniss_zura":
-        user2.main()
+    new_user = User(login, password, name, age, balance)
+    users[login] = new_user.__dict__  
+    save_users(users)  
+
+    print("User registered successfully!")
+
+
+users = load_users()
+
+
+while True:
+    action = input("Do you want to (1) Register or (2) Login? (3) Exit: ")
+
+    if action == "1":
+        register()
+    elif action == "2":
+        user_login = input("Enter your login: ")
+        if user_login in users:
+            user_data = users[user_login]
+            current_user = User(
+                user_login,
+                password=user_data["password"], 
+                name=user_data["name"],
+                age=user_data["age"],
+                balance=user_data["balance"]
+            )
+            current_user.main()
+        else:
+            print("User not found.")
+    elif action == "3":
+        print("Exiting program.")
+        break
+    else:
+        print("Invalid option, please try again.")

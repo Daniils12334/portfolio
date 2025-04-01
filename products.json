@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Chicken",
+        "calories": 239.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0,
+        "proteins": 27.0
+    },
+    {
+        "name": "Apple",
+        "calories": 52.0,
+        "fat": 0.2,
+        "carbohydrates": 14.0,
+        "proteins": 0.3
+    },
+    {
+        "name": "Adazu_cipsi",
+        "calories": 465.0,
+        "fat": 35.0,
+        "carbohydrates": 40.0,
+        "proteins": 0.6
+    }
+]

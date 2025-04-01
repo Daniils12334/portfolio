@@ -1,0 +1,19 @@
+[
+    {
+        "date": "2025-04-01",
+        "calories_consumed": 2855.0,
+        "fat_consumed": 175.0,
+        "carbs_consumed": 40.0,
+        "protein_consumed": 270.6,
+        "products": [
+            {
+                "name": "Chicken",
+                "grams": 1000.0
+            },
+            {
+                "name": "Adazu_cipsi",
+                "grams": 100.0
+            }
+        ]
+    }
+]

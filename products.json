@@ -19,5 +19,33 @@
         "fat": 35.0,
         "carbohydrates": 40.0,
         "proteins": 0.6
+    },
+    {
+        "name": "Jogurts_Baltais_Chockolate",
+        "calories": 133.0,
+        "fat": 4.0,
+        "carbohydrates": 12.0,
+        "proteins": 2.0
+    },
+    {
+        "name": "Brown_rice",
+        "calories": 349.0,
+        "fat": 2.2,
+        "carbohydrates": 74.1,
+        "proteins": 7.2
+    },
+    {
+        "name": "Nagets_kekava",
+        "calories": 218.0,
+        "fat": 11.0,
+        "carbohydrates": 18.0,
+        "proteins": 12.0
+    },
+    {
+        "name": "Krejums",
+        "calories": 205.0,
+        "fat": 11.0,
+        "carbohydrates": 18.0,
+        "proteins": 12.0
     }
 ]

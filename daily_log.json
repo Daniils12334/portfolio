@@ -15,5 +15,30 @@
                 "grams": 100.0
             }
         ]
+    },
+    {
+        "date": "2025-04-02",
+        "calories_consumed": 1281.15,
+        "fat_consumed": 36.55,
+        "carbs_consumed": 167.025,
+        "protein_consumed": 37.6,
+        "products": [
+            {
+                "name": "Jogurts_Baltais_Chockolate",
+                "grams": 350.0
+            },
+            {
+                "name": "Brown_rice",
+                "grams": 125.0
+            },
+            {
+                "name": "Nagets_kekava",
+                "grams": 80.0
+            },
+            {
+                "name": "Krejums",
+                "grams": 100.0
+            }
+        ]
     }
 ]

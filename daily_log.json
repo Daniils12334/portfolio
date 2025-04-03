@@ -59,10 +59,10 @@
     },
     {
         "date": "2025-04-03",
-        "calories_consumed": 724.5,
-        "fat_consumed": 38.7,
-        "carbs_consumed": 28.6,
-        "protein_consumed": 63.2,
+        "calories_consumed": 1833.0,
+        "fat_consumed": 126.9,
+        "carbs_consumed": 215.2,
+        "protein_consumed": 170.10000000000002,
         "products": [
             {
                 "name": "cottage_cheese_9",
@@ -71,6 +71,18 @@
             {
                 "name": "baltais_jogurts_parslas",
                 "grams": 180.0
+            },
+            {
+                "name": "boiled_chicken",
+                "grams": 250.0
+            },
+            {
+                "name": "fried_potato",
+                "grams": 250.0
+            },
+            {
+                "name": "Krejums",
+                "grams": 120.0
             }
         ]
     }

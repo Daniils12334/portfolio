@@ -47,5 +47,47 @@
         "fat": 11.0,
         "carbohydrates": 18.0,
         "proteins": 12.0
+    },
+    {
+        "name": "Spaghetti_dobele",
+        "calories": 358.0,
+        "fat": 1.5,
+        "carbohydrates": 71.0,
+        "proteins": 14.0
+    },
+    {
+        "name": "siers_maasdam",
+        "calories": 352.0,
+        "fat": 27.0,
+        "carbohydrates": 0.0,
+        "proteins": 26.0
+    },
+    {
+        "name": "kefirs",
+        "calories": 51.0,
+        "fat": 4.0,
+        "carbohydrates": 4.0,
+        "proteins": 4.0
+    },
+    {
+        "name": "protein_hydrobeef",
+        "calories": 408.0,
+        "fat": 0.0,
+        "carbohydrates": 0.0,
+        "proteins": 97.0
+    },
+    {
+        "name": "cottage_cheese_9",
+        "calories": 153.0,
+        "fat": 9.0,
+        "carbohydrates": 2.0,
+        "proteins": 16.0
+    },
+    {
+        "name": "baltais_jogurts_parslas",
+        "calories": 105.0,
+        "fat": 4.0,
+        "carbohydrates": 12.0,
+        "proteins": 4.0
     }
 ]

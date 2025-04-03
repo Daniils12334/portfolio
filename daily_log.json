@@ -18,10 +18,10 @@
     },
     {
         "date": "2025-04-02",
-        "calories_consumed": 1281.15,
-        "fat_consumed": 36.55,
-        "carbs_consumed": 167.025,
-        "protein_consumed": 37.6,
+        "calories_consumed": 2096.55,
+        "fat_consumed": 69.425,
+        "carbs_consumed": 237.375,
+        "protein_consumed": 104.55000000000001,
         "products": [
             {
                 "name": "Jogurts_Baltais_Chockolate",
@@ -38,6 +38,39 @@
             {
                 "name": "Krejums",
                 "grams": 100.0
+            },
+            {
+                "name": "Spaghetti_dobele",
+                "grams": 85.0
+            },
+            {
+                "name": "siers_maasdam",
+                "grams": 80.0
+            },
+            {
+                "name": "kefirs",
+                "grams": 250.0
+            },
+            {
+                "name": "protein_hydrobeef",
+                "grams": 25.0
+            }
+        ]
+    },
+    {
+        "date": "2025-04-03",
+        "calories_consumed": 724.5,
+        "fat_consumed": 38.7,
+        "carbs_consumed": 28.6,
+        "protein_consumed": 63.2,
+        "products": [
+            {
+                "name": "cottage_cheese_9",
+                "grams": 350.0
+            },
+            {
+                "name": "baltais_jogurts_parslas",
+                "grams": 180.0
             }
         ]
     }

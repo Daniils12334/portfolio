@@ -159,5 +159,19 @@
         "fat": 0.0,
         "carbohydrates": 0.0,
         "proteins": 0.0
+    },
+    {
+        "name": "soup_with_rice",
+        "calories": 60.0,
+        "fat": 4.0,
+        "carbohydrates": 10.0,
+        "proteins": 10.0
+    },
+    {
+        "name": "bulka",
+        "calories": 500.0,
+        "fat": 20.0,
+        "carbohydrates": 40.0,
+        "proteins": 2.0
     }
 ]

@@ -104,10 +104,10 @@
     },
     {
         "date": "2025-04-04",
-        "calories_consumed": 618.0999999999999,
-        "fat_consumed": 38.5,
-        "carbs_consumed": 68.6,
-        "protein_consumed": 36.4,
+        "calories_consumed": 1164.1,
+        "fat_consumed": 58.7,
+        "carbs_consumed": 148.6,
+        "protein_consumed": 58.199999999999996,
         "products": [
             {
                 "name": "putra_herkules_ar_pienu",
@@ -116,6 +116,14 @@
             {
                 "name": "balta_desa",
                 "grams": 70.0
+            },
+            {
+                "name": "jogurts_baltais_parslas",
+                "grams": 400.0
+            },
+            {
+                "name": "orange",
+                "grams": 200.0
             }
         ]
     }

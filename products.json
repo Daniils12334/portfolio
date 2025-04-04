@@ -138,5 +138,26 @@
         "fat": 40.0,
         "carbohydrates": 8.0,
         "proteins": 22.0
+    },
+    {
+        "name": "jogurts_baltais_parslas",
+        "calories": 113.0,
+        "fat": 5.0,
+        "carbohydrates": 14.0,
+        "proteins": 5.0
+    },
+    {
+        "name": "orange",
+        "calories": 47.0,
+        "fat": 0.1,
+        "carbohydrates": 12.0,
+        "proteins": 0.9
+    },
+    {
+        "name": "g",
+        "calories": 100000000000.0,
+        "fat": 0.0,
+        "carbohydrates": 0.0,
+        "proteins": 0.0
     }
 ]

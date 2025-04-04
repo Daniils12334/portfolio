@@ -59,10 +59,10 @@
     },
     {
         "date": "2025-04-03",
-        "calories_consumed": 1833.0,
-        "fat_consumed": 126.9,
-        "carbs_consumed": 215.2,
-        "protein_consumed": 170.10000000000002,
+        "calories_consumed": 2486.0,
+        "fat_consumed": 158.67600000000002,
+        "carbs_consumed": 270.65999999999997,
+        "protein_consumed": 211.89200000000002,
         "products": [
             {
                 "name": "cottage_cheese_9",
@@ -83,6 +83,39 @@
             {
                 "name": "Krejums",
                 "grams": 120.0
+            },
+            {
+                "name": "ice_cream",
+                "grams": 140.0
+            },
+            {
+                "name": "banana",
+                "grams": 92.0
+            },
+            {
+                "name": "protein_hydrobeef",
+                "grams": 24.0
+            },
+            {
+                "name": "milk",
+                "grams": 350.0
+            }
+        ]
+    },
+    {
+        "date": "2025-04-04",
+        "calories_consumed": 618.0999999999999,
+        "fat_consumed": 38.5,
+        "carbs_consumed": 68.6,
+        "protein_consumed": 36.4,
+        "products": [
+            {
+                "name": "putra_herkules_ar_pienu",
+                "grams": 350.0
+            },
+            {
+                "name": "balta_desa",
+                "grams": 70.0
             }
         ]
     }

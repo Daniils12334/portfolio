@@ -56,6 +56,8 @@ class Book:
             return self.author
         if key == "num_pages":
             return self.num_pages
+        else:
+            return f"Key '{key}' was not found"
 
 book1 = Book("The Hobbit", "John Ronald Ruel Tolkien", 310)
 book2 = Book("Harry Potter and The Philosopher's Stone", "J.K Rowling", 233)
@@ -70,3 +72,4 @@ print(book1 + book3) #__add__
 print("Witcher" in book3)
 
 print(book1['author'])
+print(book1['num_pages'])

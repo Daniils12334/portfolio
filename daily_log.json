@@ -142,5 +142,18 @@
                 "grams": 60.0
             }
         ]
+    },
+    {
+        "date": "2025-04-05",
+        "calories_consumed": 490.0,
+        "fat_consumed": 15.0,
+        "carbs_consumed": 75.0,
+        "protein_consumed": 15.0,
+        "products": [
+            {
+                "name": "manka",
+                "grams": 500.0
+            }
+        ]
     }
 ]

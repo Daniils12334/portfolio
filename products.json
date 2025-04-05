@@ -173,5 +173,12 @@
         "fat": 20.0,
         "carbohydrates": 40.0,
         "proteins": 2.0
+    },
+    {
+        "name": "manka",
+        "calories": 98.0,
+        "fat": 3.0,
+        "carbohydrates": 15.0,
+        "proteins": 3.0
     }
 ]

@@ -7,7 +7,7 @@ This is my personal roadmap for learning Data Science and Machine Learning. I tr
 - [x] Python Basics (syntax, data structures, functions, OOP)
 - [x] NumPy (arrays, matrix operations, vectorization)
 - [x] Pandas (data manipulation, data cleaning, merging datasets)
-- [ ] Matplotlib & Seaborn (data visualization)
+- [x] Matplotlib & Seaborn (data visualization)
 - [x] Unix/Linux Commands (working with the terminal, scripting)
 - [x] Git & GitHub (version control, repositories, commits, branches)
 - [x] C++ (reading and understanding code, syntax, data structures, functions, OOP)
